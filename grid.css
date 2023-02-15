@@ -1,11 +1,4 @@
-  .sidebar {
-      grid-area: sidebar;
 
-  }
-
-  .content {
-      grid-area: content;
-  }
 
   .header1 {
       grid-area: header1;
@@ -19,9 +12,29 @@
       grid-area: header3;
   }
 
-  .footer {
-      grid-area: footer;
+  .Content1 {
+      grid-area: Content1;
   }
+
+  .Content2 {
+    grid-area: Content2;
+}
+
+.Content3 {
+    grid-area: Content3;
+}
+
+.describe1 {
+    grid-area: describe1;
+}
+
+.describe2 {
+    grid-area: describe2;
+}
+
+.describe3 {
+    grid-area: describe3;
+}
 
   .wrapper {
       display: grid;
@@ -34,30 +47,30 @@
       grid-template-rows: auto;
       grid-template-areas:
           'header1 header2 header3'
-          'sidebar content content'
-          'footer  footer  footer';
+          'Content1 Content2 Content3'
+          'describe1 describe2 describe3';
   }
 
   .box1 {
+    background-color: black;
+    color: white;
+    text-align: center;
       border-radius: 5px;
       padding: 10px;
       font-size: x-large;
   }
 
   .box2 {
+    background-color:aliceblue;
     border-color: black;
     padding: 10px;
     font-size: x-large;
 }
 
-  .header1,
-  .header2,
-  .header3 {
-      background-color: black;
-      color: white;
-      text-align: center;
-  }
+.box3 {
+    border-color: white;
+    padding: 10px;
+    font-size: x-large;
+}
 
-  .footer {
-      background-color: #999;
-  }
+
