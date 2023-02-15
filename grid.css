@@ -43,12 +43,16 @@
       grid-column-gap: 10px;
       background-color: #fff;
       color: #444;
-      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
       grid-template-rows: auto;
       grid-template-areas:
-          'header1 header2 header3'
-          'Content1 Content2 Content3'
-          'describe1 describe2 describe3';
+          'header1 header1' 
+          'Content1 describe1'
+          'header2 header2' 
+          'Content2 describe2'
+          'header3 header3' 
+          'Content3 describe3'
+
   }
 
   .box1 {
