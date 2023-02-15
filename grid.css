@@ -1,22 +1,20 @@
+.header1 {
+    grid-area: header1;
+}
 
+.header2 {
+    grid-area: header2;
+}
 
-  .header1 {
-      grid-area: header1;
-  }
+.header3 {
+    grid-area: header3;
+}
 
-  .header2 {
-      grid-area: header2;
-  }
+.Content1 {
+    grid-area: Content1;
+}
 
-  .header3 {
-      grid-area: header3;
-  }
-
-  .Content1 {
-      grid-area: Content1;
-  }
-
-  .Content2 {
+.Content2 {
     grid-area: Content2;
 }
 
@@ -36,36 +34,36 @@
     grid-area: describe3;
 }
 
-  .wrapper {
-      display: grid;
-      margin: 10px 40px;
-      grid-row-gap: 30px;
-      grid-column-gap: 10px;
-      background-color: #fff;
-      color: #444;
-      grid-template-columns: 1fr 1fr;
-      grid-template-rows: auto;
-      grid-template-areas:
-          'header1 header1' 
-          'Content1 describe1'
-          'header2 header2' 
-          'Content2 describe2'
-          'header3 header3' 
-          'Content3 describe3'
+.wrapper {
+    display: grid;
+    margin: 10px 40px;
+    grid-row-gap: 30px;
+    grid-column-gap: 10px;
+    background-color: #fff;
+    color: #444;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+        'header1 header1'
+        'Content1 describe1'
+        'header2 header2'
+        'Content2 describe2'
+        'header3 header3'
+        'Content3 describe3'
 
-  }
+}
 
-  .box1 {
+.box1 {
     background-color: black;
     color: white;
     text-align: center;
-      border-radius: 5px;
-      padding: 10px;
-      font-size: x-large;
-  }
+    border-radius: 5px;
+    padding: 10px;
+    font-size: x-large;
+}
 
-  .box2 {
-    background-color:aliceblue;
+.box2 {
+    background-color: aliceblue;
     border-color: black;
     padding: 10px;
     font-size: x-large;
@@ -76,5 +74,3 @@
     padding: 10px;
     font-size: x-large;
 }
-
-
