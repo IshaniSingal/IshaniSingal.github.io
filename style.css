@@ -27,12 +27,12 @@ h1 {
     margin:20px;
 } 
 
-.linkedin{
+.linkedin,.github{
     font-style: italic;
     color:red;
 }
 
-.github{
+.Github-project-link{
     font-style: italic;
-    color:red;
+    color:white;
 }

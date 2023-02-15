@@ -38,13 +38,19 @@
           'footer  footer  footer';
   }
 
-  .box {
-      background-color: #0000ff;
-      color: #fff;
+  .box1 {
       border-radius: 5px;
       padding: 10px;
       font-size: x-large;
   }
+
+  .box2 {
+    background-color: #0000ff;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: x-large;
+}
 
   .header1,
   .header2,
