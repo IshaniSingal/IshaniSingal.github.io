@@ -45,9 +45,7 @@
   }
 
   .box2 {
-    background-color: #0000ff;
-    color: #fff;
-    border-radius: 5px;
+    border-color: black;
     padding: 10px;
     font-size: x-large;
 }
