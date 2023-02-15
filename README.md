@@ -1,6 +1,5 @@
 # Ishani Singal Portfolio
 
-permalink: /index.html
 # Usage
 ## <a href="https://IshaniSingal.github.io">Click here to view page</a>
 
