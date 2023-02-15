@@ -1,0 +1,38 @@
+body {
+    margin: 40px;
+}
+
+h1 {
+    text-align: center;
+    font-size:"100";
+    font-family: 'Merienda One', cursive;
+}
+
+.video {
+    align-items: center;
+    margin: 10px 40px;
+
+}
+
+.Photo-card {
+    align-items: center;
+    margin: 40px 40px;
+}
+
+.card-body {
+    margin: 10px 10px;
+}
+
+.navbar{
+    margin:20px;
+} 
+
+.linkedin{
+    font-style: italic;
+    color:red;
+}
+
+.github{
+    font-style: italic;
+    color:red;
+}
